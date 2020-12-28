@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+<title>differenza</title>
+<script type="text/javascript">
+function calcola() {
+var primoaddendo = eval(document.getElementById("primacasella").value);
+var secondoaddendo = eval(document.getElementById("secondacasella").value);
+var somma = primoaddendo - secondoaddendo;
+document.getElementById("totale").value = somma;
+document.getElementById("primacasella").value = "";
+document.getElementById("secondacasella").value = "";
+}
+</script>
+</head>
+<body>
+<h2>Differenza</h2>
+<form>
+<p>
+Minuendo: <input type="text" id="primacasella"><br><br>
+Sottraendo: <input type="text" id="secondacasella"><br><br>
+<input id="bottone" type="button" value="differenza" onclick="calcola()"></p>
+Totale: <input type="text" id="totale" value="0">
+</form>
+</body>
+</html>

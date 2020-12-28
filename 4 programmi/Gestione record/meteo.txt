@@ -1,0 +1,11 @@
+Busseto;nevoso;-10;2
+Cremona;nevoso;0;2
+Milano;piovoso;1;30
+Cattolica;soleggiato;3;45
+Torino;tempesta;-3;-1
+Napoli;soleggiato;22;25
+Alessandria;soleggiato;10;13
+Cagliari;neve;-1;1
+Marina di Massa Carrara;soleggiato;20;24
+mantova;nuvoloso;23;25
+Parma;neve;0;2
